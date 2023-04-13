@@ -19,7 +19,7 @@
 
         public double TotalValue()
         {
-            return ValuePerHour * Hours;
+            return Hours * ValuePerHour;
         }
     }
 }

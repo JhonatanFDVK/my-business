@@ -1,6 +1,4 @@
 ﻿using mybusiness.Entities.Enums;
-using System.Globalization;
-using System.Text;
 
 namespace mybusiness.Entities
 {
@@ -34,7 +32,7 @@ namespace mybusiness.Entities
             Contracts.Remove(contract);
         }
 
-        public double Income(int year, int month)
+        public double Income(int month, int year)
         {
             double sum = BaseSalary;
 
